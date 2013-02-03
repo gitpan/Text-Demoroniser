@@ -8,7 +8,7 @@ use Encode::ZapCP1252;
 
 BEGIN {
     require Exporter;
-    $VERSION = '0.05';
+    $VERSION = '0.06';
     @ISA = qw( Exporter );
     @EXPORT = qw();
     %EXPORT_TAGS = (
@@ -120,9 +120,9 @@ RT: http://rt.cpan.org/Public/Dist/Display.html?Name=Text-Demoronmiser
 
 =head1 COPYRIGHT AND LICENSE
 
-  Copyright (C) 2009-2012 by Barbie
+  Copyright (C) 2009-2013 by Barbie
 
-  This module is free software; you can redistribute it and/or
+  This distribution is free software; you can redistribute it and/or
   modify it under the Artistic License v2.
 
 =cut
